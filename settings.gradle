@@ -1,0 +1,2 @@
+rootProject.name='DuckHunt'
+include ':app'
