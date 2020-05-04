@@ -3,4 +3,6 @@
     <string name="lbl_name_player">Nombre</string>
     <string name="text_button_start">Iniciar Juego</string>
     <string name="hint_nickname">Escriba su nickname</string>
+    <string name="text_timer">60s</string>
+    <string name="text_counter">0</string>
 </resources>

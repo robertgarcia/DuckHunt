@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_game"
-    android:padding="1dp"
+    android:padding="16dp"
     tools:context=".GameActivity">
 
     <ImageView
@@ -20,7 +20,7 @@
         android:id="@+id/imageViewCounter"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:layout_margin="16dp"
+        android:layout_margin="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/duck_hunt_logo" />
@@ -30,19 +30,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="0"
+        android:text="@string/text_counter"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewCounter"
         app:layout_constraintStart_toEndOf="@+id/imageViewCounter"
-        app:layout_constraintTop_toTopOf="@+id/imageViewCounter"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewCounter" />
 
     <TextView
         android:id="@+id/textViewNickname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewTimer"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTimer"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTimer"
+        app:layout_constraintTop_toTopOf="@+id/textViewTimer"
+        app:srcCompat="@drawable/ic_timer" />
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_timer"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
