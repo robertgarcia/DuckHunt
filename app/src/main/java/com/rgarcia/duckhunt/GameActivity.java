@@ -41,7 +41,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     private void initConteo() {
-        new CountDownTimer(5000, 1000){
+        new CountDownTimer(60000, 1000){
             @Override
             public void onTick(long millisUntilFinished) {
                 long segundosRestantes = millisUntilFinished / 1000;
