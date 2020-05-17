@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "620819145516",
+    "firebase_url": "https://duck-hunt-game-2aa11.firebaseio.com",
+    "project_id": "duck-hunt-game-2aa11",
+    "storage_bucket": "duck-hunt-game-2aa11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620819145516:android:b85ef03a018b45e2ab8289",
+        "android_client_info": {
+          "package_name": "com.rgarcia.duckhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620819145516-50t0in1u12ri2b8p40ieaht8g4a8rv4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMIyH2PdNP1zp1yjaB9qsDRE-JEaAYEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620819145516-50t0in1u12ri2b8p40ieaht8g4a8rv4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
